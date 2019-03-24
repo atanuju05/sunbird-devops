@@ -150,6 +150,10 @@ cassandra_backup_azure_storage_account_name: "{{azure_account_name}}"
 cassandra_backup_azure_storage_access_key: "{{backup_storage_key}}"
 cassandra_backup_dir: /data/cassandra/backup
 
+## Cassandra download URI
+cassandra_repo: 'deb http://www.apache.org/dist/cassandra/debian 39x main'
+cassandra_repo_key: 'https://www.apache.org/dist/cassandra/KEYS'
+
 
 keycloak_realm: sunbird
 sunbird_content_player_url: "http://api-manager_kong:8000/"
